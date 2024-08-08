@@ -7,6 +7,7 @@ import 'package:flutter_module2/view/container_sample_1.dart';
 import 'package:flutter_module2/view/first-screen1.dart';
 import 'package:flutter_module2/view/first_screen.dart';
 import 'package:flutter_module2/view/form_validator.dart';
+import 'package:flutter_module2/view/get_counter.dart';
 import 'package:flutter_module2/view/register_sample.dart';
 import 'package:flutter_module2/view/sampleforbutton.dart';
 
@@ -44,12 +45,12 @@ class MyApp extends StatelessWidget {
         minTextAdapt: true,
         splitScreenMode: true,
         child: MaterialApp(
-          initialRoute: '/',
-          routes: {
-            '/': (context) => FirstScreen1(),
-            '/second': (context) => SeconsScreen2(),
-          },
-          // home: FirstScreen()
+          // initialRoute: '/',
+          // routes: {
+          //   '/': (context) => FirstScreen1(),
+          //   '/second': (context) => SeconsScreen2(),
+    //}
+        home: MyWidget()
         ));
   }
 }
